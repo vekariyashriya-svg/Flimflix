@@ -29,8 +29,8 @@ function sendEmail($to, $subject, $body, $file = null)
         $mail->Port       = 465;
 
         // --- SMTP Credentials ---
-        $mail->Username   = 'nmrajput11@gmail.com';
-        $mail->Password   = 'esux gtsk fnqz abek'; // 16-digit App Password
+        $mail->Username   = 'nmrajpu1@gmail.com';
+        $mail->Password   = ' gtsk fnqz abek'; // 16-digit App Password
 
         // Localhost par SSL peer verification error avoid karva mate
         $mail->SMTPOptions = [
@@ -42,8 +42,8 @@ function sendEmail($to, $subject, $body, $file = null)
         ];
 
         // ---- Sender & Recipient ----
-        $mail->setFrom('nmrajput11@gmail.com', 'FLIMFLIX Movies');
-        $mail->addReplyTo('nmrajput11@gmail.com', 'FLIMFLIX Support');
+        $mail->setFrom('nmrajput1@gmail.com', 'FLIMFLIX Movies');
+        $mail->addReplyTo('nmrajput1@gmail.com', 'FLIMFLIX Support');
         $mail->addAddress($to);
 
         // ---- Content ----
